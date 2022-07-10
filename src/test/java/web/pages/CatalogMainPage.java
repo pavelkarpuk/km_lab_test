@@ -14,11 +14,6 @@ public class CatalogMainPage {
 
     public void hoverToMobilePhonesTitle() {
         Selenide.$x(String.format(typeOfElectronicsButton, "Мобильные телефоны")).hover();
-//        try {
-//            Thread.sleep(2000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
     }
 
     public void clickSmartphoneButton() {
