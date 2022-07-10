@@ -5,5 +5,5 @@ import org.apache.logging.log4j.Logger;
 
 public class AbstractPageHelper {
 
-    protected Logger logger = LogManager.getRootLogger();
+    protected final static Logger logger = LogManager.getRootLogger();
 }
